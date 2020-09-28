@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/ProximaNovaT-Thin.ttf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/ProximaNova-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/ProximaNova-Regular.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/ProximaNova-Bold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/ProximaNova-Extrabld.ttf');
+    font-weight: 700;
+}
+
+body {
+    font-family: ProximaNova;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.section1 {
+    background-image: url("../img/bg1.png");
+    background-size: cover;
+    background-position: top;
+    height: 706px;
+}
+
+.section1__bg {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(13, 13, 13, 0.2), rgba(0, 0, 0, 0.9));
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.section1__content {
+    display: flex;
+}
+
+.content__item2 {
+    position: relative;
+    top: 16px;
+}
+
+.section1 .title {
+    text-align: center;
+}
+
+.title__elem1_bold {
+    font-size: 60px;
+    font-weight: 700;
+    color: #33a3f2;
+}
+
+.title__elem2_light {
+    font-size: 52px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.properties__elem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.properties__text {
+    margin-left: 20px;
+}
+
+.properties__elem2,
+.properties__elem3,
+.properties__elem4 {
+    margin-top: 32px;
+}
+
+.properties__elem2 {
+    margin-left: 42px;
+}
+
+.properties__elem3 {
+    margin-left: 84px;
+}
+
+.properties__elem4 {
+    margin-left: 126px;
+}
+
+.properties__text {
+    max-width: 287px;
+
+    font-size: 20px;
+    color: white;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10px;
+    font-size: 48px;
+}
+
+.price__old {
+    margin-left: 30px;
+
+    text-decoration: line-through;
+    color: #918e95;
+}
+
+.price__new {
+    margin-left: 48px;
+
+    font-weight: 600;
+    color: #fec935;
+}
+
+.buttons {
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.buttons__elem {
+    width: 230px;
+    height: 64px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 45px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.buttons__elem1 {
+    box-shadow: 0 2px 1px rgba(65, 64, 72, 0.6);
+    background: linear-gradient(rgb(110, 109, 129), rgb(85, 84, 97), rgb(56, 54, 59));
+}
+
+.buttons__elem2 {
+    margin-left: 10px;
+
+    font-weight: 700;
+    box-shadow: 0 2px 1px rgba(61, 182, 234, 0.6);
+    background: linear-gradient(rgb(70, 198, 227), rgb(53, 168, 240), rgb(13, 107, 218));
+
+}
+
+.buttons__elem2 img {
+    position: relative;
+    left: 25px;
+}
+
+.buttons__elem2 span {
+    position: relative;
+    left: 10px;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.count__text {
+    position: relative;
+    top: 3px;
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+}
+
+.count__text_color {
+    color: #45c4e4;
+}
+
+
+.section2 {
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+    background-position: top;
+    height: 685px;
+}
+
+.title {
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.defaultColor {
+    color: #33a3f2;
+}
+
+.bullets {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 300px;
+}
+
+.bullets__bullet {
+    display: flex;
+    align-items: center;
+}
+
+.bullet__icon {
+    background: url(../img/bullet.png) 100% 100% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 42px;
+    height: 42px;
+    font-size: 24px;
+    font-weight: 700;
+
+    color: white;
+}
+
+.bullet__text {
+    font-size: 18px;
+    margin-left: 20px;
+}
